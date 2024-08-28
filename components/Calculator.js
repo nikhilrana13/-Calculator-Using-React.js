@@ -5,7 +5,6 @@ import './Calculator.css'
 
 const Calculator = () => {
     const [input, setInput]= useState('')
-    console.log(useState(''))
 
     const AppendtoDisplay = (value)=> {
         setInput(input + value)
